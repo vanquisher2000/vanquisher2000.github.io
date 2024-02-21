@@ -1,0 +1,22 @@
+.square{
+    height: 200px;
+    width: 200px;
+    border-style: solid;
+    border-color: black;
+}
+
+.grid{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    height: 618px;
+    width: 618px;
+    margin-left : auto;
+    margin-right : auto;
+}
+
+.mole{
+    background-image: url("mole.jpg");
+    background-size: cover;
+}
