@@ -56,11 +56,11 @@ class Player{
             ctx.lineTo(mouse.x,mouse.y);
             ctx.stroke();
         }
-        ctx.fillStyle = "red";
-        ctx.beginPath();
-        ctx.arc(this.x,this.y,this.radius,0,Math.PI * 2);
-        ctx.fill();
-        ctx.closePath();
+        //ctx.fillStyle = "red";
+        //ctx.beginPath();
+        //ctx.arc(this.x,this.y,this.radius,0,Math.PI * 2);
+        //ctx.fill();
+        //ctx.closePath();
         ctx.save();
         ctx.translate(this.x,this.y);
         ctx.rotate(this.angel);
